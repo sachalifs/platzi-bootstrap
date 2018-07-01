@@ -6,6 +6,17 @@
   color: #97c93e !important;
 }
 
+.btn-platzi {
+  background-color: #97c93e !important;
+  color: white;
+}
+
+.btn-outline-platzi {
+  border: 2px solid #97c93e !important;
+  color: #97c93e;
+  background-color: transparent;
+}
+
 #carousel {
   position: relative;
 }
@@ -25,6 +36,7 @@
   right: 0;
   top: 0;
   color: white;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #carousel .overlay .container,
