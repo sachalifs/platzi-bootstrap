@@ -1,0 +1,19 @@
+.navbar .navbar-brand img {
+  width: 80px;
+}
+
+.text-platzi {
+  color: #97c93e !important;
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .carousel-inner {
+  max-height: 650px;
+}
+
+#carousel img {
+  filter: grayscale(70%);
+}
