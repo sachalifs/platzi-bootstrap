@@ -10,10 +10,24 @@
   position: relative;
 }
 
-#carousel .carousel-inner {
-  max-height: 650px;
+#carousel .carousel-inner img {
+  max-height: 70vh;
 }
 
 #carousel img {
   filter: grayscale(70%);
+}
+
+#carousel .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
 }
