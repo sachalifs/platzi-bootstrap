@@ -51,3 +51,11 @@
 #speakers .card .badges {
   margin-bottom: 0.5em;
 }
+
+#place-time {
+  margin-top: 1em;
+}
+
+#place-time img {
+  max-width: 100%;
+}
