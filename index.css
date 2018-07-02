@@ -54,6 +54,8 @@
 
 #place-time {
   margin-top: 1em;
+  background-color: #343a40;
+  color: white;
 }
 
 #place-time img {
