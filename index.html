@@ -28,7 +28,7 @@
               <a class="nav-link" href="#">La conferencia</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Los oradores
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -81,11 +81,11 @@
     <!-- /Hero -->
 
     <!-- Speakers -->
-    <section id="speakers">
+    <section id="speakers" class="mt-4">
       <div class="container">
         <div class="row">
-          <div class="col text-center">
-            <small class="text-uppercase">Conoce a los</small>
+          <div class="col text-center text-uppercase">
+            <small>Conoce a los</small>
             <h2>Los oradores</h2>
           </div>
         </div>
@@ -182,6 +182,43 @@
       </div>
     </section>
     <!-- /Place and time -->
+
+    <!-- Become a speaker -->
+    <section id="become-a-speaker" class="pt-3 pb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <small class="text-uppercase">Conviértete en un</small>
+            <h2>ORADOR</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            Anótate como orador para dar una charla ignite en la conferencia. Cuéntanos de qué quieres hablar!
+          </div>
+        </div>
+        <form>
+          <div class="form-row mt-2">
+            <div class="form-group col-sm-6 col-md-4 offset-md-2">
+              <input name="nombre" type="text" class="form-control" placeholder="Nombre">
+            </div>
+            <div class="form-group col-sm-6 col-md-4">
+              <input name="apellido" type="text" class="form-control" placeholder="Apellido">
+            </div>
+            <div class="form-group col-md-8 offset-md-2">
+              <textarea name="text" class="form-control form-control-lg" placeholder="¿Sobre qué quieres hablar?"></textarea>
+              <small class="form-text text-muted">
+                Recuerda incluir un título para tu charla
+              </small>
+            </div>
+            <div class="col-12 col-md-8 offset-md-2">
+              <button type="button" class="btn form-control btn-platzi">Enviar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- /Become a speaker -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
