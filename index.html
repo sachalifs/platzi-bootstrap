@@ -37,7 +37,7 @@
               <a class="nav-link" href="#become-a-speaker">Conviértete en orador</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-platzi" href="#buy">Comprar tickets</a>
+              <a class="nav-link text-platzi" data-toggle="modal" data-target="#tickets">Comprar tickets</a>
             </li>
           </ul>
         </div>
@@ -64,8 +64,8 @@
             <div class="col-xs-12 col-md-6 offset-md-6 text-center text-md-right align-items-end">
               <h1>Platzi Conf Hawaii</h1>
               <p class="d-none d-md-block">¡Platzi Talks llega por primera vez a Hawaii! Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro en internet. Ven a conocer a miembros del Team Platzi, a otros estudiantes de Platzi y a los conferencistas de primer nivel que tenemos para vos. ¡Te esperamos!</p>
-              <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
-              <button type="button" class="btn btn-platzi">Comprar tickets</button>
+              <a href="#become-a-speaker" class="btn btn-outline-light">Quiero ser orador</a>
+              <button type="button" class="btn btn-platzi" data-toggle="modal" data-target="#tickets">Comprar tickets</button>
             </div>
           </div>
         </div>
@@ -242,6 +242,42 @@
       </div>
     </section>
     <!-- /Footer -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="tickets" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Comprar tickets</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon3">platzi.com/</span>
+                    </div>
+                    <input name="username" type="text" placeholder="Nombre de usuario en Platzi" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div class="alert alert-warning" role="alert">
+              Recibirás un correo de confirmación si sales sorteado
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-platzi">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Modal -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
